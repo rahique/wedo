@@ -1,0 +1,21 @@
+/* nav section */
+@media (max-width: 991px) {
+  /* Nav section */
+  .nav-item:hover::after {
+    width: 100%;
+  }
+  /* ==========what people say section========= */
+
+  .wps-img-section {
+    position: relative;
+  }
+  .wps-img-red-box {
+    position: absolute;
+    bottom: -5%;
+    right: 0%;
+    height: 30%;
+    width: 30%;
+    background: var(--primary);
+    z-index: -1;
+  }
+}
